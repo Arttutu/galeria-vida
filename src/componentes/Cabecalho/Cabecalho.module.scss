@@ -1,0 +1,39 @@
+.imagem_logo {
+  width: 200px;
+}
+.title_logo {
+  margin-left: 20px;
+}
+
+.botao_pesquisa {
+  width: 400px;
+  height: 40px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.botao_pesquisa:hover {
+  border: 4px solid white;
+}
+.icone_pesquisar {
+  position: relative;
+  left: 390px;
+}
+
+@media (max-width: 993px) {
+  .ui {
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+  }
+}
+@media (max-width: 576px) {
+  .botao_pesquisa {
+    width: 300px;
+  }
+  .icone_pesquisar {
+    position: relative;
+    left: 290px;
+  }
+}
