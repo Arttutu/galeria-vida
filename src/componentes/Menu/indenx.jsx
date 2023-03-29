@@ -8,31 +8,31 @@ export default function Menu() {
     <div className="container">
       <nav className={styles.menu}>
         <ul className={styles.menu__listas}>
-          <li>
+          <li className={styles.menu__item}>
             <span>
               <AiFillHome size={25} />
             </span>
             <a href="/">Ínicio</a>
           </li>
-          <li>
+          <li className={styles.menu__item}>
             <span>
               <AiFillEye size={25} />
             </span>
             <a href="/">Mais vistas</a>
           </li>
-          <li>
+          <li className={styles.menu__item}>
             <span>
               <AiFillHeart size={25} />
             </span>
             <a href="/">Mais curtidas</a>
           </li>
-          <li>
+          <li className={styles.menu__item}>
             <span>
               <BsFillSunFill size={25} />
             </span>
             <a href="/">Novas</a>
           </li>
-          <li>
+          <li className={styles.menu__item}>
             <span>
               <AiFillBulb size={25} />
             </span>
