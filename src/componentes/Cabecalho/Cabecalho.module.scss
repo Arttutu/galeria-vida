@@ -3,18 +3,19 @@
 }
 .title_logo {
   margin-left: 20px;
+  color: #195c18;
 }
 
 .botao_pesquisa {
   width: 400px;
   height: 40px;
-  border: none;
+  border: 3px solid #195c18;
   box-sizing: border-box;
   border-radius: 10px;
   transition: 0.5s;
 }
 .botao_pesquisa:hover {
-  border: 4px solid white;
+  border: 4px solid #fff;
 }
 .icone_pesquisar {
   position: relative;
