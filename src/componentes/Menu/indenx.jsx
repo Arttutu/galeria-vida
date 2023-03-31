@@ -10,31 +10,31 @@ export default function Menu() {
         <ul className={styles.menu__listas}>
           <li className={styles.menu__item}>
             <span>
-              <AiFillHome size={25} />
+              <AiFillHome size={30} />
             </span>
             <a href="/">Ínicio</a>
           </li>
           <li className={styles.menu__item}>
             <span>
-              <AiFillEye size={25} />
+              <AiFillEye size={30} />
             </span>
             <a href="/">Mais vistas</a>
           </li>
           <li className={styles.menu__item}>
             <span>
-              <AiFillHeart size={25} />
+              <AiFillHeart size={30} />
             </span>
             <a href="/">Mais curtidas</a>
           </li>
           <li className={styles.menu__item}>
             <span>
-              <BsFillSunFill size={25} />
+              <BsFillSunFill size={30} />
             </span>
             <a href="/">Novas</a>
           </li>
           <li className={styles.menu__item}>
             <span>
-              <AiFillBulb size={25} />
+              <AiFillBulb size={30} />
             </span>
             <a href="/">Surprenda-me</a>
           </li>

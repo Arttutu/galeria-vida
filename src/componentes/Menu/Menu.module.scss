@@ -1,12 +1,29 @@
-.menu__listas {
-  list-style: none;
+.menu {
+  width: 18%;
   margin: 0;
-}
-.menu__item {
-  padding: 0.5rem;
-}
-.menu__item a {
-  text-decoration: none;
-  font-size: 1rem;
-  color: #000;
+  padding: 0;
+  &__listas {
+    list-style: none;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    &:first-child {
+      a {
+        font-weight: 700;
+        color: black;
+        font-family: "GandhiSansRegular";
+      }
+    }
+    a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: black;
+    }
+    span {
+      margin-right: 1rem;
+    }
+  }
 }
