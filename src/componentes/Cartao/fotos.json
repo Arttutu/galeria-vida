@@ -1,0 +1,23 @@
+[
+  {
+    "titulo": "Leão Disney",
+    "imagem": "/assets/imagens/galeria/lion-1.png",
+    "creditos": "Dalle",
+    "id": "1",
+    "tag": "leao"
+  },
+  {
+    "titulo": "Leão Disney",
+    "imagem": "/assets/imagens/galeria/lion-2.png",
+    "creditos": "Dalle",
+    "id": "1",
+    "tag": "leao"
+  },
+  {
+    "titulo": "Leão Disney",
+    "imagem": "/assets/imagens/galeria/lion-3.png",
+    "creditos": "Dalle",
+    "id": "1",
+    "tag": "leao"
+  }
+]

@@ -5,11 +5,11 @@ import logo from "./logo.png"
 export default function Cabecalho() {
   return (
     <header>
-      <nav className="navbar">
+      <nav className="navbar mb-5">
         <div
           className={`container mt-3 d-flex align-items-center   ${cabecalho.ui}`}
         >
-          <a className="navbar-brand d-flex align-items-center mb-5 me-0">
+          <a className="navbar-brand d-flex align-items-center  me-0">
             <img
               className={`img-fluid ${cabecalho.imagem_logo}`}
               src={logo}

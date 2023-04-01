@@ -12,10 +12,10 @@ export default function PaginaInicial() {
         <div className="container">
           <section className={styles.principal}>
             <div className="row d-flex align-items-center">
-              <div className="col-4">
+              <div className="col-3">
                 <Menu />
               </div>
-              <div className="col-8">
+              <div className="col-9">
                 <div className={styles.principal__imagem}>
                   <h1>A galeria mais completa da natureza com IA</h1>
                   <img
