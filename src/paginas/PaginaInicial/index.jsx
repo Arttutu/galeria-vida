@@ -2,6 +2,7 @@ import Cabecalho from "../../componentes/Cabecalho"
 import banner from "./banner.webp"
 import Menu from "../../componentes/Menu/indenx"
 import styles from "./paginaInicial.module.scss"
+import Galeria from "../../componentes/Galeria"
 
 export default function PaginaInicial() {
   return (
@@ -26,6 +27,11 @@ export default function PaginaInicial() {
               </div>
             </div>
           </section>
+          <div className="row">
+            <div className="col mt-3">
+              <Galeria />
+            </div>
+          </div>
         </div>
       </main>
     </>
