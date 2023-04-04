@@ -7,23 +7,27 @@ export default function Cartao() {
     <>
       {fotos.map((foto) => {
         return (
-          <div className={`${style.card}`}>
-            <li className={style.card__lista} key={foto.id}>
-              <img
-                src={foto.imagem}
-                alt={foto.titulo}
-                className={style.card__lista__imagem}
-              ></img>
-              <div className={`pb-2 ${style.card__lista__descricao}`}>
-                <p>{foto.titulo}</p>
-                <p>{foto.creditos}</p>
-                <span>
-                  <AiOutlineHeart size={25} />
-                  <RxOpenInNewWindow size={25} />
-                </span>
-              </div>
-            </li>
-          </div>
+          <ul className="col-sm-12 col-md-6 col-lg-3 mt-5 text-center">
+            <div className={`${style.card}`}>
+              <li className={style.card__lista}>
+                <img
+                  src={foto.imagem}
+                  alt={foto.titulo}
+                  className={`img-fluid ${style.card__lista__imagem}`}
+                ></img>
+                <div className={`pb-2 ${style.card__lista__descricao}`}>
+                  <p>{foto.titulo}</p>
+                  <div>
+                    <p>{foto.creditos}</p>
+                    <span>
+                      <AiOutlineHeart size={30} />
+                      <RxOpenInNewWindow size={30} />
+                    </span>
+                  </div>
+                </div>
+              </li>
+            </div>
+          </ul>
         )
       })}
     </>

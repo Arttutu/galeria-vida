@@ -27,11 +27,7 @@ export default function PaginaInicial() {
               </div>
             </div>
           </section>
-          <div className="row">
-            <div className="col mt-3">
-              <Galeria />
-            </div>
-          </div>
+          <Galeria />
         </div>
       </main>
     </>

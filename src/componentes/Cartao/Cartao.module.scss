@@ -1,30 +1,42 @@
 @import "../../styles/variaveis";
-.card {
-  border: 1px solid $amarelo-claro;
-  border-radius: 15px;
-  width: 300px;
-  display: flex;
 
+.card {
+  width: 100%;
+  border-radius: 20px;
+  transition: 0.5s;
   &__lista {
-    display: flex;
     list-style: none;
     &__imagem {
       width: 100%;
       height: 250px;
+      box-sizing: border-box;
     }
     &__descricao {
-      background-color: $amarelo-claro;
+      width: 100%;
+      background-color: $amarelo-escuro;
+      padding: 20px;
       p {
+        padding-top: 10px;
         color: $branco;
         font-size: 1.4rem;
-        text-align: center;
+        text-align: left;
       }
-      span {
+      div {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        P {
+          color: $branco-fraco;
+        }
+        span {
+          display: flex;
+          gap: 2rem;
+          color: $branco;
+        }
       }
     }
   }
+}
+.card:hover .card__lista {
+  transform: scale(1.1);
 }
