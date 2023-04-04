@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: linear-gradient($amarelo-escuro, $amarelo-claro);
+  background-color: $cor-fundo !important;
   box-sizing: border-box;
   font-family: $font;
 }
@@ -13,9 +13,9 @@ body::-webkit-scrollbar {
   width: 3px;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: $amarelo-escuro;
+  background-color: $cor-fundo;
   border-radius: 20px;
 }
 body::-webkit-scrollbar-track {
-  background: linear-gradient($amarelo-escuro, $amarelo-claro);
+  background: linear-gradient($cor-fundo, $amarelo-claro);
 }
