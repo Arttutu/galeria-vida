@@ -1,3 +1,4 @@
+@import "../../styles/_variaveis.scss";
 .menu {
   width: 18%;
   margin: 0;
@@ -10,17 +11,18 @@
     align-items: center;
     gap: 1rem;
     padding: 0.5rem;
+    color: $verde-escuro;
     &:first-child {
       a {
         font-weight: 700;
-        color: black;
+        color: $branco;
         font-family: "GandhiSansRegular";
       }
     }
     a {
       text-decoration: none;
       font-size: 1.5rem;
-      color: black;
+      color: $branco;
     }
     span {
       margin-right: 1rem;

@@ -5,11 +5,11 @@ import { RxOpenInNewWindow } from "react-icons/rx"
 export default function Cartao() {
   return (
     <>
-      {fotos.map((foto) => {
-        return (
-          <ul className="col-sm-12 col-md-6 col-lg-3 mt-5 text-center">
+      <ul className="col-sm-4 ">
+        {fotos.map((foto) => {
+          return (
             <div className={`${style.card}`}>
-              <li className={style.card__lista}>
+              <li className={`${style.card__lista}`}>
                 <img
                   src={foto.imagem}
                   alt={foto.titulo}
@@ -27,9 +27,9 @@ export default function Cartao() {
                 </div>
               </li>
             </div>
-          </ul>
-        )
-      })}
+          )
+        })}
+      </ul>
     </>
   )
 }

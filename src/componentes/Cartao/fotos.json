@@ -1,23 +1,44 @@
 [
   {
-    "titulo": "Leão Disney",
-    "imagem": "/assets/imagens/galeria/lion-1.png",
+    "titulo": "Cachorro",
+    "imagem": "/assets/imagens/galeria/foto-1.jpg",
     "creditos": "Dalle",
     "id": "1",
-    "tag": "leao"
+    "tag": "cachorro"
   },
   {
-    "titulo": "Leão Disney",
-    "imagem": "/assets/imagens/galeria/lion-2.png",
-    "creditos": "Dalle",
-    "id": "1",
-    "tag": "leao"
+    "titulo": "Cachorro - Pomerânia",
+    "imagem": "/assets/imagens/galeria/foto-2.jpg",
+    "creditos": "Tanika",
+    "id": "2",
+    "tag": "Pomerânia"
   },
   {
-    "titulo": "Leão Disney",
-    "imagem": "/assets/imagens/galeria/lion-3.png",
-    "creditos": "Dalle",
-    "id": "1",
-    "tag": "leao"
+    "titulo": "Cachorro - Dachshund ",
+    "imagem": "/assets/imagens/galeria/foto-3.jpg",
+    "creditos": "Dominika Roseclay",
+    "id": "3",
+    "tag": "Dachshund "
+  },
+  {
+    "titulo": "Cachorro - Dachshund ",
+    "imagem": "/assets/imagens/galeria/foto-3.jpg",
+    "creditos": "Dominika Roseclay",
+    "id": "3",
+    "tag": "Dachshund "
+  },
+  {
+    "titulo": "Cachorro - Dachshund ",
+    "imagem": "/assets/imagens/galeria/foto-3.jpg",
+    "creditos": "Dominika Roseclay",
+    "id": "3",
+    "tag": "Dachshund "
+  },
+  {
+    "titulo": "Cachorro - Dachshund ",
+    "imagem": "/assets/imagens/galeria/foto-3.jpg",
+    "creditos": "Dominika Roseclay",
+    "id": "3",
+    "tag": "Dachshund "
   }
 ]

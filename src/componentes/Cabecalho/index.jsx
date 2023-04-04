@@ -5,6 +5,7 @@ import logo from "./logo.png"
 export default function Cabecalho() {
   return (
     <header>
+      Image by{" "}
       <nav className="navbar mb-5">
         <div
           className={`container mt-3 d-flex align-items-center   ${cabecalho.ui}`}
@@ -14,7 +15,8 @@ export default function Cabecalho() {
               className={`img-fluid ${cabecalho.imagem_logo}`}
               src={logo}
             ></img>
-            <h1 className={cabecalho.title_logo}>VidaRobótica</h1>
+
+            <h1 className={cabecalho.title_logo}>Gall3ria</h1>
           </a>
           <form
             className={`d-flex justify-content-center align-items-center  ${cabecalho.form_pesquisar}`}

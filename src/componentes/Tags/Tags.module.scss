@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   &__titulo {
-    color: $verde-escuro;
+    color: $branco;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
@@ -16,9 +16,9 @@
     &__item {
       font-size: 1.2rem;
       color: $branco;
-      border: 1px solid $amarelo-escuro;
+      border: 1px solid $verde-escuro;
       border-radius: 10px;
-      background-color: $amarelo-escuro;
+      background-color: $verde-escuro;
       padding: 5px;
       width: 150px;
       text-align: center;
