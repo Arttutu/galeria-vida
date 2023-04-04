@@ -1,0 +1,7 @@
+@import "../../styles/variaveis";
+.galeria {
+  &__titulo {
+    color: $verde-escuro;
+    font-weight: bold;
+  }
+}

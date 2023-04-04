@@ -1,0 +1,27 @@
+@import "../../styles/variaveis";
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__titulo {
+    color: $verde-escuro;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  &__lista {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    &__item {
+      font-size: 1.2rem;
+      color: $branco;
+      border: 1px solid $amarelo-escuro;
+      border-radius: 10px;
+      background-color: $amarelo-escuro;
+      padding: 5px;
+      width: 150px;
+      text-align: center;
+    }
+  }
+}

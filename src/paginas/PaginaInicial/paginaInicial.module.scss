@@ -1,3 +1,4 @@
+@import "../../styles/variaveis";
 .principal {
   &__imagem {
     img {
@@ -8,8 +9,9 @@
     h1 {
       position: absolute;
       z-index: 1;
-      color: #195c18;
+      color: $verde-escuro;
       font-size: 2.5rem;
+      font-weight: bold;
       width: 401px;
       height: 144px;
       top: 75px;
