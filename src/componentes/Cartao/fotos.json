@@ -1,10 +1,10 @@
 [
   {
-    "titulo": "Cachorro",
-    "imagem": "/assets/imagens/galeria/foto-1.jpg",
-    "creditos": "Dalle",
+    "titulo": "Valentinho",
+    "imagem": "/assets/imagens/galeria/foto-1.jpeg",
+    "creditos": "Arthur",
     "id": "1",
-    "tag": "cachorro"
+    "tag": "puddle"
   },
   {
     "titulo": "Cachorro - Pomerânia",
@@ -21,11 +21,11 @@
     "tag": "Dachshund "
   },
   {
-    "titulo": "Cachorro - Dachshund ",
-    "imagem": "/assets/imagens/galeria/foto-3.jpg",
-    "creditos": "Dominika Roseclay",
-    "id": "3",
-    "tag": "Dachshund "
+    "titulo": "valentinho 2 ",
+    "imagem": "/assets/imagens/galeria/foto-4.jpeg",
+    "creditos": "Arthur",
+    "id": "4",
+    "tag": "Puddle"
   },
   {
     "titulo": "Cachorro - Dachshund ",

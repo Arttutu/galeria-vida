@@ -1,5 +1,7 @@
 @import "../../styles/variaveis.scss";
 .populares__titulo {
+  position: relative;
+  top: -30px;
   color: $branco;
   text-align: center;
 }

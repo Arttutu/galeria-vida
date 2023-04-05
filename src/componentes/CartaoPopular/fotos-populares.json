@@ -1,0 +1,32 @@
+[
+  {
+    "imagem": "/assets/imagens/galeria/foto-1.jpeg",
+    "alt": "puddle",
+    "id": "1"
+  },
+  {
+    "imagem": "/assets/imagens/populares/foto-2.jpg",
+    "alt": "puddle",
+    "id": "2"
+  },
+  {
+    "imagem": "/assets/imagens/populares/foto-3.jpg",
+    "id": "3",
+    "alt": "puddle"
+  },
+  {
+    "imagem": "/assets/imagens/populares/foto-4.jpeg",
+    "alt": "puddle",
+    "id": "4"
+  },
+  {
+    "imagem": "/assets/imagens/populares/foto-3.jpg",
+    "alt": "puddle",
+    "id": "3"
+  },
+  {
+    "imagem": "/assets/imagens/populares/foto-3.jpg",
+    "alt": "puddle",
+    "id": "3"
+  }
+]

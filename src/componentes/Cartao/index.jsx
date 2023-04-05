@@ -4,7 +4,7 @@ import { AiOutlineHeart } from "react-icons/ai"
 import { RxOpenInNewWindow } from "react-icons/rx"
 export default function Cartao() {
   return (
-    <ul className="row m-0">
+    <ul className="row p-0 ">
       {fotos.map((foto) => {
         return (
           <div className="col-lg-4 col-sm-6 mb-4 d-flex justify-content-center">

@@ -7,10 +7,10 @@ export default function Tags() {
       </div>
       <div className="col-9 d-flex justify-content-end">
         <ul className={styles.tags__lista}>
-          <li className={styles.tags__lista__item}>Leão</li>
-          <li className={styles.tags__lista__item}>Lobo</li>
-          <li className={styles.tags__lista__item}>Urso</li>
-          <li className={styles.tags__lista__item}>Cachorro</li>
+          <li className={styles.tags__lista__item}>Puddle</li>
+          <li className={styles.tags__lista__item}></li>
+          <li className={styles.tags__lista__item}></li>
+          <li className={styles.tags__lista__item}></li>
         </ul>
       </div>
     </div>
