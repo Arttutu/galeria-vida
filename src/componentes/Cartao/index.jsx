@@ -4,10 +4,10 @@ import { AiOutlineHeart } from "react-icons/ai"
 import { RxOpenInNewWindow } from "react-icons/rx"
 export default function Cartao() {
   return (
-    <>
-      <ul className="col-sm-4 ">
-        {fotos.map((foto) => {
-          return (
+    <ul className="row m-0">
+      {fotos.map((foto) => {
+        return (
+          <div className="col-lg-4 col-sm-6 mb-4 d-flex justify-content-center">
             <div className={`${style.card}`}>
               <li className={`${style.card__lista}`}>
                 <img
@@ -27,9 +27,9 @@ export default function Cartao() {
                 </div>
               </li>
             </div>
-          )
-        })}
-      </ul>
-    </>
+          </div>
+        )
+      })}
+    </ul>
   )
 }

@@ -14,11 +14,11 @@ export default function Galeria() {
         <div className="row">
           <Tags></Tags>
         </div>
-        <div className="row mt-5">
-          <div className="col-9">
+        <div className="row mt-5 text-center">
+          <div className="col-lg-9 col-sm-12">
             <Cartao />
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 mt-5 mt-lg-0">
             <Populares />
           </div>
         </div>
