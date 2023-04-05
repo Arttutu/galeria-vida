@@ -4,7 +4,7 @@ import Populares from "../populares"
 import styles from "./Galeria.module.scss"
 export default function Galeria() {
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid m-0 p-0">
       <section className={`${styles.galeria}`}>
         <div className="row">
           <h2 className={`text-center mt-5 ${styles.galeria__titulo}`}>

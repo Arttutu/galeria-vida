@@ -11,11 +11,11 @@ export default function PaginaInicial() {
       <main>
         <div className="container">
           <section className={styles.principal}>
-            <div className="row d-flex align-items-center">
-              <div className="col-3">
+            <div className="row d-flex justify-content-center align-items-center">
+              <div className="col-lg-3 col-sm-12">
                 <Menu />
               </div>
-              <div className="col-9">
+              <div className="col-lg-9 col-sm-12">
                 <div className={styles.principal__imagem}>
                   <h1>
                     A galeria mais completa canina mais compelta da internet
