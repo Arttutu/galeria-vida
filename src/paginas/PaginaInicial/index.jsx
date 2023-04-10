@@ -1,7 +1,7 @@
-import Cabecalho from "../../componentes/Cabecalho"
-import banner from "./banner.jpeg"
-import Menu from "../../componentes/Menu/indenx"
 import styles from "./paginaInicial.module.scss"
+import banner from "./banner.jpeg"
+import Cabecalho from "../../componentes/Cabecalho"
+import Menu from "../../componentes/Menu/indenx"
 import Galeria from "../../componentes/Galeria"
 
 export default function PaginaInicial() {

@@ -2,6 +2,8 @@ import fotos from "./fotos.json"
 import style from "./Cartao.module.scss"
 import { AiOutlineHeart } from "react-icons/ai"
 import { RxOpenInNewWindow } from "react-icons/rx"
+import { useState } from "react"
+
 export default function Cartao() {
   return (
     <ul className="row p-0 ">

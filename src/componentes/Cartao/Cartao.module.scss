@@ -8,11 +8,12 @@
     padding: 0;
     &__imagem {
       width: 100%;
-      height: 400px;
+      height: 300px;
       box-sizing: border-box;
     }
     &__descricao {
       width: 100%;
+      text-align: center;
       background-color: $verde-escuro;
       padding: 20px;
       p {
