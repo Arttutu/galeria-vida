@@ -5,7 +5,7 @@ import { BsFillSunFill } from "react-icons/bs"
 
 export default function Menu() {
   return (
-    <div className="container">
+    <div className="lista">
       <nav className={`${styles.menu}`}>
         <ul className={`${styles.menu__listas}`}>
           <li className={` m-0 ${styles.menu__item}`}>

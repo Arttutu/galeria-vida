@@ -1,27 +1,40 @@
 @import "../../styles/variaveis";
 .tags {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   &__titulo {
     color: $branco;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 30px;
   }
-  &__lista {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    &__item {
-      font-size: 1.2rem;
-      color: $branco;
-      border: 1px solid $verde-escuro;
-      border-radius: 10px;
-      background-color: $verde-escuro;
-      padding: 5px;
-      width: 150px;
-      text-align: center;
+  &__grid {
+    .tags__lista {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      justify-content: center;
+      gap: 2rem;
+      &__item {
+        font-size: 1.2rem;
+        color: $branco;
+        border: 1px solid $verde-escuro;
+        border-radius: 10px;
+        background-color: $verde-escuro;
+        padding: 5px;
+        width: 150px;
+        text-align: center;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .tags {
+    &__grid {
+      .tags__lista {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
     }
   }
 }

@@ -1,18 +1,18 @@
 @import "../../styles/_variaveis.scss";
 .menu {
-  width: 18%;
   text-align: center;
-
   &__listas {
     list-style: none;
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
   &__item {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 0.5rem;
+    padding: 10px 0;
     color: $verde-escuro;
     &:first-child {
       a {
@@ -28,8 +28,9 @@
     }
     span {
       display: flex;
-
-      margin-right: 1rem;
+      align-items: center;
     }
   }
+}
+@media (max-width: 576px) {
 }

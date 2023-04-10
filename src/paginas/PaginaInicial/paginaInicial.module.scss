@@ -1,8 +1,15 @@
 @import "../../styles/variaveis";
 .principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__menu {
+    width: 20%;
+  }
   &__imagem {
     img {
-      width: 100%;
+      width: 800px;
+      height: 600px;
       border-radius: 20px;
     }
     position: relative;
@@ -16,6 +23,17 @@
       height: 144px;
       top: 75px;
       left: 44px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .principal {
+    flex-direction: column;
+    &__imagem {
+      h1 {
+        left: 0px;
+        font-size: 1.5rem;
+      }
     }
   }
 }
