@@ -8,9 +8,10 @@ export default function Tags() {
       <div className={`col-lg-9 col-sm-12 ${styles.tags__grid}`}>
         <ul className={styles.tags__lista}>
           <li className={styles.tags__lista__item}>Puddle</li>
-          <li className={styles.tags__lista__item}>Vira-Lata</li>
+          <li className={styles.tags__lista__item}>Sem raça</li>
           <li className={styles.tags__lista__item}>Pomerânia</li>
           <li className={styles.tags__lista__item}>Dachshund</li>
+          <li className={styles.tags__lista__item}>Pitbull</li>
         </ul>
       </div>
     </div>

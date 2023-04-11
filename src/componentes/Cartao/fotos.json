@@ -14,11 +14,11 @@
     "tag": "Pomerânia"
   },
   {
-    "titulo": "Cachorro - Dachshund ",
+    "titulo": "Cachorro",
     "imagem": "/assets/imagens/galeria/foto-3.jpg",
     "creditos": "Dominika Roseclay",
     "id": "3",
-    "tag": "Dachshund "
+    "tag": "Dachshund"
   },
   {
     "titulo": "valentinho 2 ",
@@ -31,14 +31,14 @@
     "titulo": "Sloan",
     "imagem": "/assets/imagens/galeria/foto-5.jpeg",
     "creditos": "Ana Clara",
-    "id": "3",
-    "tag": "Vira-Lata "
+    "id": "5",
+    "tag": "Sem raça"
   },
   {
-    "titulo": "Sloan",
-    "imagem": "/assets/imagens/galeria/foto-5.jpeg",
-    "creditos": "Ana Clara",
-    "id": "3",
-    "tag": "Vira-Lata"
+    "titulo": "Safira",
+    "imagem": "/assets/imagens/galeria/foto-6.jpeg",
+    "creditos": "Lucas Dias",
+    "id": "6",
+    "tag": "Pitbull"
   }
 ]
