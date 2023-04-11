@@ -4,9 +4,9 @@ import CartaoPopular from "../CartaoPopular/indenx"
 
 export default function Populares() {
   return (
-    <aside className="m-0 p-0">
+    <aside>
       ]<h3 className={style.populares__titulo}>Populares</h3>
-      <ul className="">
+      <ul className="m-0 p-0">
         <CartaoPopular />
       </ul>
     </aside>
