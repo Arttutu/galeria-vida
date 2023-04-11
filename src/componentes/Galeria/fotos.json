@@ -28,17 +28,17 @@
     "tag": "Puddle"
   },
   {
-    "titulo": "Sloan",
-    "imagem": "/assets/imagens/galeria/foto-5.jpeg",
-    "creditos": "Ana Clara",
-    "id": "5",
-    "tag": "Sem raça"
-  },
-  {
     "titulo": "Safira",
     "imagem": "/assets/imagens/galeria/foto-6.jpeg",
     "creditos": "Lucas Dias",
     "id": "6",
     "tag": "Pitbull"
+  },
+  {
+    "titulo": "Sloan",
+    "imagem": "/assets/imagens/galeria/foto-5.jpeg",
+    "creditos": "Ana Clara",
+    "id": "5",
+    "tag": "Sem raça"
   }
 ]

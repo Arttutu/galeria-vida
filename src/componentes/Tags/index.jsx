@@ -1,5 +1,6 @@
 import styles from "./Tags.module.scss"
-export default function Tags() {
+import fotos from "../Galeria/fotos.json"
+export default function Tags({ tags }) {
   return (
     <div className="tags row mt-5 m-0">
       <div className={`col-lg-3 col-sm-12 ${styles.tags__grid}`}>
@@ -7,11 +8,14 @@ export default function Tags() {
       </div>
       <div className={`col-lg-9 col-sm-12 ${styles.tags__grid}`}>
         <ul className={styles.tags__lista}>
-          <li className={styles.tags__lista__item}>Puddle</li>
-          <li className={styles.tags__lista__item}>Sem raça</li>
-          <li className={styles.tags__lista__item}>Pomerânia</li>
-          <li className={styles.tags__lista__item}>Dachshund</li>
-          <li className={styles.tags__lista__item}>Pitbull</li>
+          {tags.map((tag) => {
+            return (
+              <li key={tag} className={styles.tags__lista__item}>
+                {tag}
+              </li>
+            )
+          })}
+          <li className={styles.tags__lista__item}>Todos</li>
         </ul>
       </div>
     </div>
