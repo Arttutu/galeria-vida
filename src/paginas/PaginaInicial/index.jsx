@@ -16,6 +16,7 @@ export default function PaginaInicial() {
             </div>
             <div className={` ${styles.principal__imagem}`}>
               <h1>A galeria canina mais completa da internet</h1>
+
               <img
                 className="img-fluid"
                 src={banner}
